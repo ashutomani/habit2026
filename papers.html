@@ -1,0 +1,1675 @@
+
+
+help me to prepare HABIT2026 website
+
+Great—let’s build a clean, professional website for HABIT2026 that you can host from your institute server (since you mentioned PHP hosting earlier). I’ll guide you step-by-step and give you ready-to-use content + structure.
+
+🌐 HABIT2026 Website Plan
+🔷 1. Website Structure (Pages)
+Create these main pages:
+
+Home (index.php)
+
+About the Conference
+
+Committee
+
+Call for Papers
+
+Registration
+
+Program / Schedule
+
+Speakers
+
+Venue
+
+Contact
+
+🧱 2. Folder Structure
+habit2026/
+│
+├── index.php
+├── about.php
+├── committee.php
+├── papers.php
+├── registration.php
+├── program.php
+├── speakers.php
+├── venue.php
+├── contact.php
+│
+├── css/
+│   └── style.css
+│
+├── images/
+│
+├── includes/
+│   ├── header.php
+│   └── footer.php
+🎨 3. Basic Website Template (Copy-Paste Ready)
+🔹 includes/header.php
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HABIT2026 Conference</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>HABIT2026</h1>
+    <p>International Conference on Health, AI & Bioinformatics Technologies</p>
+
+    <nav>
+        <a href="index.php">Home</a>
+        <a href="about.php">About</a>
+        <a href="committee.php">Committee</a>
+        <a href="papers.php">Call for Papers</a>
+        <a href="registration.php">Registration</a>
+        <a href="program.php">Program</a>
+        <a href="speakers.php">Speakers</a>
+        <a href="venue.php">Venue</a>
+        <a href="contact.php">Contact</a>
+    </nav>
+</header>
+🔹 includes/footer.php
+<footer>
+    <p>© 2026 HABIT Conference | MNNIT Allahabad</p>
+</footer>
+
+</body>
+</html>
+🔹 index.php
+<?php include 'includes/header.php'; ?>
+
+<section>
+    <h2>Welcome to HABIT2026</h2>
+    <p>
+        HABIT2026 is a premier international conference focusing on the integration 
+        of Health, Artificial Intelligence, and Bioinformatics Technologies.
+    </p>
+
+    <h3>📅 Important Dates</h3>
+    <ul>
+        <li>Abstract Submission: Coming Soon</li>
+        <li>Full Paper Submission: Coming Soon</li>
+        <li>Conference Dates: To be announced</li>
+    </ul>
+</section>
+
+<?php include 'includes/footer.php'; ?>
+🎯 4. Content Suggestions (You Can Customize)
+🔹 About Page
+Background of HABIT conference series
+
+Objective
+
+Themes:
+
+Bioinformatics
+
+AI in Healthcare
+
+Genomics & NGS
+
+Clinical Data Science
+
+🔹 Call for Papers
+Include tracks like:
+
+Computational Biology
+
+Machine Learning in Medicine
+
+Genomics & Proteomics
+
+Public Health Informatics
+
+🔹 Registration Page
+Include:
+
+Fee structure (Students / Faculty / Industry)
+
+Payment details (UPI / Bank)
+
+Google Form link (easy option)
+
+🔹 Contact Page
+Organizing Committee  
+HABIT2026  
+MNNIT Allahabad  
+Email: habit@mnnit.ac.in  
+🎨 5. Simple CSS (style.css)
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: #003366;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+🚀 6. Advanced Features (Optional but Recommended)
+You can later add:
+
+✅ Online registration form (PHP + MySQL)
+
+✅ Paper submission link (EasyChair / CMT)
+
+✅ Countdown timer
+
+✅ Download brochure (PDF)
+
+✅ Photo gallery
+
+✅ Sponsors section
+
+⚡ 7. Deployment Steps
+Create files in your system
+
+Test using:
+
+XAMPP / WAMP (since you use Windows)
+
+Upload to MNNIT server via:
+
+cPanel / FTP
+
+💡 Next Step (I can do for you)
+If you want, I can:
+
+✔ Design full professional homepage (modern UI)
+✔ Create complete content for all pages
+✔ Add registration form (working PHP backend)
+✔ Generate brochure + website matching theme
+
+👉 Tell me:
+
+Conference full form of HABIT
+
+Dates
+
+Theme focus (AI? Bioinformatics? Healthcare?)
+
+…and I’ll build a complete ready-to-upload website (advanced version) for you.
+
+
+I will host it at free server
+
+Good choice—that makes things easier and faster to deploy 👍
+Since you’re using a free server, we need to be a bit strategic because many free hosts have limitations (no PHP / limited storage / ads / no database).
+
+🚀 Step 1: Choose the Right Free Hosting
+✅ Option 1 (Best for you – since you know PHP)
+InfinityFree
+
+✔ Supports PHP + MySQL
+
+✔ No ads
+
+✔ Good for conference websites
+
+❗ Slightly slower
+
+✅ Option 2 (Very Easy – No coding backend)
+Netlify
+
+GitHub Pages
+
+✔ Super fast
+
+✔ Drag & drop deployment
+
+❌ No PHP (only HTML/CSS/JS)
+
+👉 Recommendation for you:
+Use InfinityFree (because your current website is PHP-based)
+
+🧱 Step 2: Adjust Your Website for Free Hosting
+⚠ Important Limitation
+Free servers often:
+
+Limit database usage
+
+Sometimes block mail() function
+
+Can be slow
+
+👉 So we simplify:
+
+🔹 Replace:
+❌ Complex backend forms
+
+❌ Heavy database usage
+
+🔹 Use:
+✅ Google Forms (for registration & submission)
+
+✅ Static content pages
+
+✅ Simple PHP (only includes like header/footer)
+
+🧩 Step 3: Modify Your Website (Important)
+🔁 Update Registration Page
+Instead of PHP form, use:
+
+<h2>Registration</h2>
+
+<p>Please register using the link below:</p>
+
+<a href="https://forms.gle/YOUR_FORM_LINK" target="_blank">
+    Click here to Register
+</a>
+🔁 Update Paper Submission
+<h2>Call for Papers</h2>
+
+<p>Submit your paper via:</p>
+
+<a href="https://easychair.org/" target="_blank">
+    Submit Paper (EasyChair)
+</a>
+🎨 Step 4: Make It Look Professional (Important Upgrade)
+Add this inside <head>:
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+Now your site becomes modern instantly.
+
+📁 Step 5: Upload Process (InfinityFree)
+Steps:
+Go to InfinityFree
+
+Create account
+
+Create domain (example: habit2026.infinityfreeapp.com)
+
+Open File Manager
+
+Upload your folder contents into:
+
+/htdocs/
+⚡ Step 6: Minimum Pages You MUST Have
+For a conference, don’t overcomplicate. Focus on:
+
+Home
+
+About
+
+Call for Papers
+
+Registration
+
+Committee
+
+Contact
+
+👉 That’s enough for launch.
+
+💡 Pro Tips (Very Important)
+🔥 1. Add This on Homepage
+Conference banner
+
+Dates (even tentative)
+
+“Registration Open” badge
+
+🔥 2. Add Download Section
+<a href="brochure.pdf" download>Download Brochure</a>
+🔥 3. Use Images
+MNNIT campus
+
+Conference icons
+
+Logos
+
+⚠ Common Mistakes to Avoid
+❌ Using heavy animations
+❌ Using large images (slow loading)
+❌ Complex backend on free hosting
+❌ Not mobile-friendly
+
+🚀 If You Want Next Level
+I can now:
+
+✅ Convert your site into modern Bootstrap UI (very professional)
+✅ Add conference banner design matching your pamphlet
+✅ Create fully ready homepage (like IEEE conference sites)
+✅ Add countdown timer + highlights section
+
+👉 Just tell me:
+
+Do you want PHP version (InfinityFree) OR
+
+Super-fast static version (Netlify/GitHub Pages)
+
+…and I’ll build a complete ready-to-upload HABIT2026 website (final version) for you.
+
+
+on github
+
+Perfect choice 👍 — using GitHub Pages is the fastest, cleanest, and most professional way to host HABIT2026.
+
+Since GitHub Pages does NOT support PHP, we’ll convert your site into a modern static website (HTML + CSS + Bootstrap).
+
+🚀 Step-by-Step: HABIT2026 on GitHub Pages
+🧱 1. Folder Structure (Very Important)
+Create a folder like this:
+
+habit2026/
+│
+├── index.html
+├── about.html
+├── committee.html
+├── papers.html
+├── registration.html
+├── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── images/
+🎨 2. Ready-to-Use Homepage (Professional UI)
+👉 Copy this as index.html:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HABIT2026 Conference</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('images/banner.jpg');
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">HABIT2026</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="papers.html">Call for Papers</a></li>
+<li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li>
+<li class="nav-item"><a class="nav-link" href="committee.html">Committee</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+<h1>HABIT2026</h1>
+<p>International Conference on Health, AI & Bioinformatics Technologies</p>
+
+<h4 class="mt-3">📍 MNNIT Allahabad</h4>
+
+<a href="registration.html" class="btn btn-warning mt-3">Register Now</a>
+</section>
+
+<!-- About -->
+<section class="container mt-5">
+<h2>About the Conference</h2>
+<p>
+HABIT2026 focuses on emerging innovations in Artificial Intelligence,
+Bioinformatics, and Healthcare Technologies.
+</p>
+</section>
+
+<!-- Important Dates -->
+<section class="container mt-5">
+<h2>Important Dates</h2>
+<ul>
+<li>Paper Submission: Coming Soon</li>
+<li>Acceptance Notification: Coming Soon</li>
+<li>Conference Dates: To be announced</li>
+</ul>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3 mt-5">
+© 2026 HABIT Conference | MNNIT Allahabad
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+🧩 3. Registration Page (Google Form Based)
+👉 registration.html
+
+<h2>Registration</h2>
+
+<p>Click below to register:</p>
+
+<a href="https://forms.gle/YOUR_FORM_LINK" target="_blank">
+Register via Google Form
+</a>
+📄 4. Call for Papers Page
+👉 papers.html
+
+<h2>Call for Papers</h2>
+
+<ul>
+<li>AI in Healthcare</li>
+<li>Bioinformatics & Genomics</li>
+<li>Machine Learning in Medicine</li>
+<li>Public Health Informatics</li>
+</ul>
+
+<p>Submit via:</p>
+
+<a href="https://easychair.org/" target="_blank">
+Submit Paper
+</a>
+🌐 5. Upload to GitHub Pages
+Step-by-step:
+Go to GitHub
+
+Click New Repository
+
+Name it:
+
+habit2026
+Upload all files
+
+Go to:
+
+Settings → Pages
+Select:
+
+Branch: main → /root
+🌍 Your Website Will Be Live At:
+https://yourusername.github.io/habit2026/
+🎯 6. Make It Look NEXT LEVEL (Highly Recommended)
+Add:
+Conference brochure PDF
+
+Speaker images
+
+Countdown timer
+
+Logos (MNNIT, sponsors)
+
+💡 Pro Upgrade (I can build for you)
+I can now create a FULL PROFESSIONAL VERSION like IEEE conferences:
+
+✅ Animated homepage
+✅ Speaker cards
+✅ Committee table (beautiful layout)
+✅ Download brochure section
+✅ Countdown timer
+✅ Mobile-perfect UI
+
+👉 Just send:
+
+Conference dates
+
+Logo (if available)
+
+Brochure (optional)
+
+…and I’ll generate a complete GitHub-ready HABIT2026 website (premium design) 🚀
+
+
+ok I have logged in to my github
+
+Great—let’s get your HABIT2026 website live on GitHub step by step. Follow along exactly once, and you’ll have a working site in ~10–15 minutes.
+
+🚀 Step 1: Create Repository
+Click “New repository”
+
+Fill:
+
+Repository name: habit2026
+
+✔ Public
+
+❌ Do NOT initialize with README (keep it empty)
+
+Click Create repository
+
+📁 Step 2: Upload Your Website Files
+After repo is created:
+
+Click “Add file” → “Upload files”
+
+Upload these (create if not yet made):
+
+index.html
+
+about.html
+
+papers.html
+
+registration.html
+
+committee.html
+
+contact.html
+
+css/ folder
+
+images/ folder
+
+Click Commit changes
+
+⚠ IMPORTANT (Most Common Issue)
+👉 Your homepage file MUST be named exactly:
+
+index.html
+Otherwise GitHub Pages will not work.
+
+🌐 Step 3: Enable GitHub Pages
+Go to Settings tab (top menu)
+
+Scroll to Pages
+
+Under Source:
+
+Select: Deploy from a branch
+
+Branch: main
+
+Folder: /root
+
+Click Save
+
+⏳ Step 4: Wait 1–2 Minutes
+GitHub will generate your site.
+
+🌍 Step 5: Open Your Website
+Your site will be live at:
+
+https://YOUR-USERNAME.github.io/habit2026/
+🔧 Step 6: Quick Fixes (if something looks wrong)
+❌ CSS not loading?
+Check path:
+
+<link rel="stylesheet" href="css/style.css">
+❌ Images not showing?
+Make sure:
+
+Folder name = images
+
+Path:
+
+<img src="images/banner.jpg">
+❌ Links not working?
+Use:
+
+href="about.html"
+NOT:
+
+href="/about.html"
+🎯 Step 7: Make It Look Professional (Do this next)
+👉 Add this inside <head> of all pages:
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+💡 What You Should Do NOW
+👉 Tell me ONE thing:
+
+Option A:
+“I have no files yet”
+
+👉 I will generate a complete ready-to-upload website (all pages, premium design)
+
+Option B:
+“I already uploaded”
+
+👉 Send:
+
+Screenshot OR
+
+Your GitHub link
+
+I’ll debug + improve your site to professional level
+
+You’re very close now—just one push and HABIT2026 will be live 🌐🚀
+
+
+I have no files yet
+
+Perfect—that actually makes things easier. I’ll give you a complete, ready-to-upload professional website for HABIT2026. Just copy, paste, upload → DONE 🚀
+
+🧱 Step 1: Create These Files on Your Computer
+Create a folder named:
+
+habit2026
+Inside it, create these files:
+
+index.html
+about.html
+papers.html
+registration.html
+committee.html
+contact.html
+🎨 Step 2: Copy-Paste This (MAIN FILE)
+👉 index.html (Homepage – Modern Professional)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HABIT2026</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('https://source.unsplash.com/1600x600/?technology,ai');
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">HABIT-2026</a>
+
+<div class="collapse navbar-collapse">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="papers.html">Call for Papers</a></li>
+<li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li>
+<li class="nav-item"><a class="nav-link" href="committee.html">Committee</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+<h1>HABIT-2026</h1>
+<p>International Conference on Health and Agricultural Biotechnology:Interdisciplinary Trends</p>
+<h4>Department of Biotechnology</h4>
+<h4>Motilal Nehru National Institute of Technology Allahabad Allahabad</h4>
+<p>Prayagraj-211004, India</p>
+
+<a href="registration.html" class="btn btn-warning mt-3">Register Now</a>
+</section>
+
+<!-- About -->
+<section class="container mt-5">
+<h2>About the Conference</h2>
+<p>
+HABIT-2026 aims to bring together researchers, academicians, and industry experts 
+to discuss innovations in Artificial Intelligence, Bioinformatics, and Healthcare Technologies.
+</p>
+</section>
+
+<!-- Dates -->
+<section class="container mt-5">
+<h2>Important Dates</h2>
+<ul>
+<li>Paper Submission: Coming Soon</li>
+<li>Acceptance Notification: Coming Soon</li>
+<li>Conference Dates: To be announced</li>
+</ul>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3 mt-5">
+© 2026 HABIT Conference | MNNIT Allahabad
+</footer>
+
+</body>
+</html>
+📄 Step 3: Other Pages (Simple but Clean)
+👉 about.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>About HABIT2026</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+
+<h1>About HABIT2026</h1>
+
+<p>
+HABIT2026 is an international conference focusing on interdisciplinary research 
+in AI, Bioinformatics, and Healthcare.
+</p>
+
+<a href="index.html">← Back to Home</a>
+
+</body>
+</html>
+👉 papers.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Call for Papers</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+
+<h1>Call for Papers</h1>
+
+<ul>
+<li>AI in Healthcare</li>
+<li>Bioinformatics & Genomics</li>
+<li>Machine Learning in Medicine</li>
+<li>Public Health Informatics</li>
+</ul>
+
+<p>Submission link (to be added)</p>
+
+<a href="index.html">← Back to Home</a>
+
+</body>
+</html>
+👉 registration.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+
+<h1>Registration</h1>
+
+<p>Register using the link below:</p>
+
+<a href="#" class="btn btn-primary">Google Form (Add Link)</a>
+
+<a href="index.html">← Back to Home</a>
+
+</body>
+</html>
+👉 committee.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Committee</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+
+<h1>Organizing Committee</h1>
+
+<ul>
+<li>Patron: To be added</li>
+<li>Chair: To be added</li>
+<li>Convener: To be added</li>
+</ul>
+
+<a href="index.html">← Back to Home</a>
+
+</body>
+</html>
+👉 contact.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+
+<h1>Contact Us</h1>
+
+<p>
+HABIT2026<br>
+MNNIT Allahabad<br>
+Email: habit@mnnit.ac.in
+</p>
+
+<a href="index.html">← Back to Home</a>
+
+</body>
+</html>
+🚀 Step 4: Upload to GitHub
+Go to your repository
+
+Click Add file → Upload files
+
+Upload ALL files
+
+Commit
+
+🌐 Step 5: Enable GitHub Pages
+Go to:
+
+Settings → Pages → Deploy from branch → main → /root
+🎉 DONE
+Your site will be live at:
+
+https://yourusername.github.io/habit2026/
+🔥 Want a MUCH better version?
+I can upgrade this into:
+
+✅ Conference-level premium design (like IEEE)
+✅ Speaker cards + photos
+✅ Countdown timer
+✅ Brochure download section
+✅ Animated homepage
+
+👉 Just send:
+
+Conference dates
+
+Logo (if any)
+
+Brochure (optional)
+
+…and I’ll build a next-level HABIT2026 website (ready for publication & promotion) 🚀
+
+
+2nd International Conference on  “Health and Agricultural Biotechnology: Interdisciplinary Trends” [HABIT-2026] during October 30 -November 01, 2026 in the Department of Biotechnology
+
+Good—you’ve already made a solid start. Now let’s upgrade your homepage with your actual conference details and make it look like a proper international conference site.
+
+Below is your improved version of index.html with:
+
+✅ Full conference title
+
+✅ Correct dates
+
+✅ Better formatting
+
+✅ Professional layout
+
+🔥 Replace Your Current index.html With This
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HABIT-2026</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('https://source.unsplash.com/1600x600/?biotechnology,agriculture');
+    background-size: cover;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.badge-box {
+    background: #ffc107;
+    color: black;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">HABIT-2026</a>
+
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="papers.html">Call for Papers</a></li>
+<li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li>
+<li class="nav-item"><a class="nav-link" href="committee.html">Committee</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+</ul>
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+<h1 class="display-5">2nd International Conference</h1>
+
+<h2 class="mt-3">
+Health and Agricultural Biotechnology:<br>
+Interdisciplinary Trends
+</h2>
+
+<h3 class="mt-3">(HABIT-2026)</h3>
+
+<div class="badge-box">
+📅 October 30 – November 01, 2026
+</div>
+
+<h5 class="mt-4">
+Department of Biotechnology<br>
+Motilal Nehru National Institute of Technology Allahabad<br>
+Prayagraj – 211004, India
+</h5>
+
+<a href="registration.html" class="btn btn-warning mt-4">Register Now</a>
+</section>
+
+<!-- About -->
+<section class="container mt-5">
+<h2>About the Conference</h2>
+
+<p>
+The 2nd International Conference on Health and Agricultural Biotechnology: 
+Interdisciplinary Trends (HABIT-2026) aims to provide a global platform for 
+researchers, academicians, and industry experts to share innovative research 
+and advancements in biotechnology, healthcare, agriculture, and interdisciplinary sciences.
+</p>
+</section>
+
+<!-- Important Dates -->
+<section class="container mt-5">
+<h2>Important Dates</h2>
+
+<ul>
+<li><b>Paper Submission Deadline:</b> To be announced</li>
+<li><b>Acceptance Notification:</b> To be announced</li>
+<li><b>Conference Dates:</b> October 30 – November 01, 2026</li>
+</ul>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3 mt-5">
+© 2026 HABIT-2026 | Department of Biotechnology, MNNIT Allahabad
+</footer>
+
+</body>
+</html>
+🎯 What Improved (Important)
+✔ Your full official conference title is now clear
+✔ Dates are prominently visible (very important for visitors)
+✔ Location looks professional
+✔ Hero section looks like real conference websites
+
+🚀 Next Step (Do THIS now)
+Upload this file to GitHub, enable Pages, and check your live site.
+
+🔥 Next Upgrade (I recommend)
+I can now create:
+
+✅ About page (detailed, publication-ready)
+✅ Call for Papers (with tracks & formatting)
+✅ Committee page (table + design)
+✅ Brochure download section
+✅ Speaker section with cards
+
+👉 Say:
+“next pages”
+
+…and I’ll generate the complete professional website content for HABIT-2026 (ready for national/international circulation) 🚀
+
+
+I logged in to my github account i.e. ashutomani and created a new repository habit2026
+
+Perfect—you’re exactly where you should be 👍
+Now let’s finish the setup and make your HABIT-2026 site live.
+
+🚀 Step-by-Step (From Your Current Point)
+You have:
+✔ GitHub account (ashutomani)
+✔ Repository created: habit2026
+
+Now do this 👇
+
+📤 Step 1: Upload Files
+Open your repository:
+👉 habit2026
+
+Click:
+Add file → Upload files
+
+Upload these files (create them if not yet done):
+
+index.html ✅ (most important)
+
+about.html
+
+papers.html
+
+registration.html
+
+committee.html
+
+contact.html
+
+Scroll down → Click:
+Commit changes
+
+⚠️ Critical Check (Don’t Skip)
+Make sure:
+
+index.html
+is present in the root (not inside any folder)
+
+🌐 Step 2: Enable GitHub Pages
+Click Settings (top menu in repo)
+
+Scroll to Pages
+
+Under Source:
+
+Select: Deploy from a branch
+
+Branch: main
+
+Folder: /root
+
+Click Save
+
+⏳ Step 3: Wait 1 Minute
+GitHub will generate your site.
+
+🌍 Step 4: Open Your Website
+Your site will be live at:
+
+https://ashutomani.github.io/habit2026/
+🧪 Step 5: If Site Not Opening
+Try:
+
+Refresh after 1–2 minutes
+
+Check:
+
+File name is index.html
+
+Repo is Public
+
+🔥 After It Works (Important Upgrades)
+Now your site is live—but basic. Next we improve:
+
+Add:
+Conference brochure (PDF)
+
+Google Form link (registration)
+
+Speaker section
+
+Committee details
+
+🎯 What I Need From You Next
+Send me ANY of these:
+
+Committee details
+
+Registration fees
+
+Brochure (if available)
+
+Logo
+
+👉 Then I’ll upgrade your site into a professional international conference website (IEEE-level) with:
+
+✅ Proper formatting
+✅ Styled pages
+✅ Better UI
+✅ Ready for circulation
+
+If you get stuck at ANY step, just say:
+👉 “stuck at step ___”
+
+I’ll fix it instantly.
+
+
+I am here https://github.com/ashutomani/habit2026, but cant see option to add file
+
+Got it—that usually happens when the repo is completely empty. GitHub hides the normal “Add file” button until you initialize it.
+
+Let’s fix it in 30 seconds 👇
+
+🚀 What You Should Do RIGHT NOW
+When you open
+👉 your repo (habit2026 on GitHub)
+
+You should see a page like:
+
+“Quick setup — if you’ve done this kind of thing before…”
+
+✅ Click THIS button:
+👉 “creating a new file”
+
+(blue link in the middle of the page)
+
+📄 Step 2: Create Your First File
+In filename box, type:
+
+index.html
+Now paste the full homepage code I gave earlier
+
+Scroll down
+
+Click:
+👉 Commit new file
+
+🌐 Step 3: Enable Website
+After file is created:
+
+Go to Settings
+
+Click Pages
+
+Select:
+
+Source: Deploy from branch
+
+Branch: main
+
+Click Save
+
+⏳ Step 4: Open Your Site
+After 1 minute:
+
+https://ashutomani.github.io/habit2026/
+⚠️ If You STILL Don’t See “creating a new file”
+Then do this:
+
+Option B (guaranteed method)
+Click:
+👉 “uploading an existing file”
+
+Drag and drop a file (even a simple index.html)
+
+Commit
+
+💡 Why This Happened
+GitHub behaves like this when:
+
+Repo is empty
+
+No README
+
+No initial commit
+
+🎯 After This Works
+Tell me:
+👉 “site live”
+
+Then I’ll upgrade your website with:
+
+Proper About page
+
+Call for Papers (formatted)
+
+Committee section (professional)
+
+Brochure + registration
+
+You’re one click away now 🚀
+
+
+Source: Deploy from branch
+
+Perfect—that’s exactly the correct option ✅
+
+Now just finish the last 2 small steps and your site will go live.
+
+✅ What to Select Next
+Under Source: Deploy from branch, choose:
+
+👉 Branch:
+main
+👉 Folder:
+/root
+Then click Save
+
+⏳ What Happens Next
+GitHub will start deploying your site
+
+Wait about 1–2 minutes
+
+🌐 Your Website Link
+Open this:
+
+https://ashutomani.github.io/habit2026/
+⚠️ If It Shows Blank / Error
+Check these quickly:
+
+1. File exists?
+Make sure you created:
+
+index.html
+2. Correct name?
+❌ index.htm
+❌ Index.html
+✅ index.html
+
+🔥 Important (Most likely issue right now)
+If you only selected “Deploy from branch” but haven’t created index.html yet,
+👉 the site will NOT work.
+
+🎯 What You Should Do Now
+If not done already:
+
+Go to repo main page
+
+Click:
+👉 “creating a new file”
+
+Name:
+
+index.html
+Paste the homepage code
+
+Commit
+
+🚀 After It Works
+Tell me:
+👉 “site live”
+
+Then I’ll:
+
+✅ Design remaining pages (About, CFP, Committee)
+✅ Add conference-level formatting
+✅ Make it look like an international conference website
+
+You’re extremely close now—just that one file is the key 🔑
+
+
+home page is active now what next
+
+Nice—that’s the hardest part done. Now don’t stop at a “basic page.” Let’s turn this into a proper conference website that you can circulate officially.
+
+🚀 What You Should Do Next (Priority Order)
+✅ 1. Create the Remaining Pages (Structure First)
+Go back to your repo on GitHub
+
+Click:
+👉 Add file → Create new file
+
+Create these one by one:
+
+about.html
+papers.html
+registration.html
+committee.html
+contact.html
+🎯 2. Upgrade Navigation (Important)
+Right now only homepage looks good.
+
+👉 Copy your navbar code from index.html
+Paste it at the top of ALL other pages
+
+This ensures:
+✔ Same design everywhere
+✔ Professional look
+
+📄 3. Add Real Content (I’ll Give You Ready Text)
+👉 about.html (Use this)
+<!DOCTYPE html>
+<html>
+<head>
+<title>About HABIT-2026</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container mt-5">
+<h1>About HABIT-2026</h1>
+
+<p>
+The 2nd International Conference on “Health and Agricultural Biotechnology: 
+Interdisciplinary Trends (HABIT-2026)” will be held during October 30 – November 01, 2026 
+at the Department of Biotechnology, Motilal Nehru National Institute of Technology Allahabad.
+</p>
+
+<p>
+The conference aims to provide a global platform for researchers, academicians, 
+and industry professionals to exchange ideas and showcase cutting-edge research 
+in biotechnology, healthcare, agriculture, and interdisciplinary sciences.
+</p>
+
+<a href="index.html">← Back to Home</a>
+</div>
+
+</body>
+</html>
+👉 papers.html
+<h1>Call for Papers</h1>
+
+<ul>
+<li>Health Biotechnology</li>
+<li>Agricultural Biotechnology</li>
+<li>Bioinformatics & Genomics</li>
+<li>AI in Healthcare</li>
+<li>Environmental Biotechnology</li>
+</ul>
+
+<p>Submission details will be announced soon.</p>
+👉 registration.html
+👉 Replace # with your Google Form later
+
+<h1>Registration</h1>
+
+<p>Participants can register using the link below:</p>
+
+<a href="#" class="btn btn-primary">Register Now</a>
+👉 committee.html
+<h1>Organizing Committee</h1>
+
+<ul>
+<li>Patron: To be updated</li>
+<li>Chair: To be updated</li>
+<li>Convener: To be updated</li>
+</ul>
+👉 contact.html
+<h1>Contact</h1>
+
+<p>
+Department of Biotechnology<br>
+MNNIT Allahabad<br>
+Prayagraj – 211004, India<br>
+Email: habit@mnnit.ac.in
+</p>
+🎨 4. Improve Homepage (Small but Powerful)
+Add this below “Important Dates”:
+
+<h2>Highlights</h2>
+<ul>
+<li>Invited Talks by Experts</li>
+<li>Paper Presentations</li>
+<li>Networking Opportunities</li>
+<li>Interdisciplinary Research Focus</li>
+</ul>
+🔥 5. Make It Look Like a REAL Conference Site
+Next upgrades (I can do for you):
+
+✅ Speaker section with photos
+✅ Committee table (clean layout)
+✅ Brochure download button
+✅ Countdown timer (very attractive)
+✅ Logos (MNNIT + sponsors)
+
+🎯 What I Need From You Now
+Send me ANY of these:
+
+Committee details
+
+Registration fee
+
+Brochure (PDF)
+
+Logo
+
+👉 Then I’ll convert your site into a professional international-level conference website (ready for circulation & proposal submission).
+
+If you want faster progress, just say:
+👉 “make full professional version”
+
+and I’ll build the final polished website for HABIT-2026 🚀
+
+
+
+Printable brochure.pptx
+Presentation
+can you modify the files and codes according to this brochure
+
+Excellent—this brochure is rich, so instead of minor edits, I’ll upgrade your entire website content professionally based on it. This will make your site conference-ready for circulation.
+
+I’ll give you ready-to-replace code for key pages (clean, structured, and aligned with brochure).
+
+🔥 1. UPDATED HOMEPAGE (Add Key Highlights)
+👉 In your existing index.html, ADD this section below “Important Dates”
+
+<section class="container mt-5">
+<h2>Conference Highlights</h2>
+<ul>
+<li>HABIT Young Scientist Awards – 2026</li>
+<li>Invited Talks by Renowned Experts</li>
+<li>Oral & Poster Presentations</li>
+<li>Publication in Indexed Journals</li>
+<li>Interdisciplinary Research Platform</li>
+</ul>
+</section>
+📄 2. COMPLETE about.html (REPLACE FULL FILE)
+<!DOCTYPE html>
+<html>
+<head>
+<title>About HABIT-2026</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+
+<h1>About the Conference</h1>
+
+<p>
+It gives us immense pleasure to invite you to HABIT-2026, the 2nd International Conference on 
+“Health and Agricultural Biotechnology: Interdisciplinary Trends”, to be held from 
+October 30 – November 01, 2026 at MNNIT Allahabad, Prayagraj.
+</p>
+
+<p>
+The conference aims to promote excellence in scientific knowledge and innovation in biotechnology 
+and related disciplines. It will provide a global platform for researchers, academicians, and 
+industry experts to discuss recent advances in health, agriculture, and interdisciplinary sciences.
+</p>
+
+<h3>Scope of the Conference</h3>
+<ul>
+<li>Young Scientist Presentations</li>
+<li>Oral Presentations</li>
+<li>Poster Presentations</li>
+<li>Global Research Collaboration</li>
+</ul>
+
+<h3>Thrust Areas</h3>
+<ul>
+<li>Health & Medical Biotechnology</li>
+<li>Agricultural Biotechnology</li>
+<li>Bioinformatics & Computational Biology</li>
+<li>Molecular Biology & Nanotechnology</li>
+<li>Environmental Biotechnology</li>
+<li>Interdisciplinary Approaches</li>
+</ul>
+
+<a href="index.html">← Back to Home</a>
+
+</body>
+</html>
+📑 3. COMPLETE papers.html (VERY IMPORTANT PAGE)
+<!DOCTYPE html>
+<html>
+<head>
+<title>Call for Papers</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+
+<h1>Call for Papers</h1>
+
+<p>
+Researchers, faculty members, and scholars are invited to submit abstracts 
+(not exceeding 250 words).
+</p>
+
+<h3>Important Dates</h3>
+<ul>
+<li>Abstract Submission Deadline: <b>August 30, 2026</b></li>
+<li>Acceptance Notification: <b>September 10, 2026</b></li>
+<li>Early Bird Registration: <b>September 15, 2026</b></li>
+</ul>
+
+<h3>Submission Guidelines</h3>
+<ul>
+<li>Submit abstract through conference website</li>
+<li>Poster size: 90 × 90 cm</li>
+<li>Include title, authors, methods, results & conclusion</li>
+</ul>
+
+<h3>Publication</h3>
+<p>
+Selected papers will be published in indexed journals and conference proceedings.
+</p>
+
+<a href="index.html">← Back to Home</a>
+
+</body>
+</html>
+💰 4. COMPLETE registration.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+
+<h1>Registration</h1>
+
+<p>
+Participants must register online and submit payment details.
+</p>
+
+<h3>Payment Details</h3>
+<ul>
+<li>Account Name: SNFCE MNNIT Allahabad</li>
+<li>Account No: 10424975574</li>
+<li>Bank: SBI, MNNIT Allahabad</li>
+<li>IFSC: SBIN0002580</li>
+</ul>
+
+<p>
+Registration link will be updated soon.
+</p>
+
+<a href="#" class="btn btn-primary">Register Now</a>
+
+<a href="index.html">← Back to Home</a>
+
+</body>
+</html>
+👥 5. COMPLETE committee.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Committee</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+
+<h1>Organizing Committee</h1>
+
+<ul>
+<li><b>Patron:</b> Prof. R.S. Verma, Director, MNNIT Allahabad</li>
+<li><b>Chairperson:</b> Prof. Manisha Sachan, Head, Biotechnology</li>
+<li><b>Convener:</b> Dr. Ashutosh Mani</li>
+<li><b>Treasurer:</b> Dr. Joyabrata Mal</li>
+</ul>
+
+<a href="index.html">← Back to Home</a>
+
+</body>
+</html>
+📞 6. COMPLETE contact.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+
+<h1>Contact Details</h1>
+
+<p>
+Dr. Ashutosh Mani<br>
+Convener, HABIT-2026<br>
+Department of Biotechnology<br>
+MNNIT Allahabad<br>
+Prayagraj – 211004, India
+</p>
+
+<p>
+Phone: +91-532-2271239<br>
+Mobile: +91 9455354251<br>
+Email: habit.mnnit@gmail.com
+</p>
+
+<a href="index.html">← Back to Home</a>
+
+</body>
+</html>
+🎯 What You Should Do Now
+Replace each file in your repo with above code
+
+Commit changes
+
+Refresh your website
+
+🔥 Next-Level Upgrade (Recommended)
+I can further enhance:
+
+✅ Speaker section (with photos)
+✅ Brochure download button
+✅ Venue + Prayagraj info page
+✅ Sponsorship section
+✅ Fully styled navbar across all pages
+
+👉 Say:
+“make premium version”
+
+…and I’ll transform this into a top-tier international conference website (publication-ready + visually impressive) 🚀
+
+
+
+
