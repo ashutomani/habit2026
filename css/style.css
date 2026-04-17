@@ -7,8 +7,14 @@ body {
 }
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-                url('https://source.unsplash.com/1600x700/?biotechnology,lab');
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                url('https://images.unsplash.com/photo-1581093588401-22f07f0b6c7d');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+}
     background-size: cover;
     color: white;
     padding: 120px 20px;
