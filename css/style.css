@@ -1,36 +1,82 @@
+/* ================= GENERAL ================= */
 body {
     font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+/* ================= NAVBAR ================= */
 .navbar {
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
+/* ================= HERO (BACKGROUND IMAGE) ================= */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-                url('https://github.com/ashutomani/habit2026/blob/main/MNNIT.jpg');
+                url('../MNNIT.jpg');   /* using your uploaded image */
     background-size: cover;
     background-position: center;
-    color: white;
-    padding: 120px 20px;
-    text-align: center;
-}
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
     padding: 120px 20px;
     text-align: center;
 }
 
+/* ================= TEXT IMPROVEMENT ================= */
+.hero h1, .hero h2, .hero h3, .hero h4, .hero p {
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+/* ================= SECTION TITLES ================= */
 .section-title {
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
+/* ================= CARDS ================= */
 .card {
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+    text-align: center;
 }
 
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ================= BUTTONS ================= */
+.btn {
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-weight: 500;
+}
+
+/* ================= LIST ================= */
+ul {
+    font-size: 16px;
+}
+
+/* ================= FOOTER ================= */
 footer {
     margin-top: 50px;
+    font-size: 14px;
+}
+
+/* ================= MOBILE RESPONSIVE ================= */
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 20px;
+        background-attachment: scroll; /* fix for mobile */
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
 }
