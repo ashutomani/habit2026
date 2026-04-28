@@ -74,6 +74,19 @@ footer {
     .hero h1 {
         font-size: 24px;
     }
+    .title-box {
+    display: inline-block;
+    background-color: rgba(0, 102, 204, 0.85); /* blue */
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.title-box h2,
+.title-box h4 {
+    color: white;
+    margin: 0;
+}
 
     .hero h2 {
         font-size: 20px;
