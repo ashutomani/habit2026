@@ -155,3 +155,6 @@ footer {
 .register-box:hover {
     background-color: #0056b3;  /* darker on hover */
 }
+ul li {
+    margin-bottom: 8px;
+}
