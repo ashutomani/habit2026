@@ -111,3 +111,23 @@ footer {
     background-color: #ffe066;
     color: black !important;
 }
+.register-box {
+    display: inline-block;
+    background: linear-gradient(45deg, #007bff, #00c6ff); /* fluorescent blue */
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.register-box a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.register-box:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
