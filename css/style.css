@@ -98,3 +98,16 @@ footer {
     padding: 15px 25px;
     border-radius: 10px;
 }
+.brochure-link {
+    background-color: #fff3b0; /* fluorescent cream */
+    color: black !important;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.brochure-link:hover {
+    background-color: #ffe066;
+    color: black !important;
+}
