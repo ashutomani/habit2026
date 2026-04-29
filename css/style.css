@@ -113,11 +113,11 @@ footer {
 }
 .register-box {
     display: inline-block;
-    background: linear-gradient(45deg, #007bff, #00c6ff); /* fluorescent blue */
-    padding: 12px 25px;
-    border-radius: 8px;
-    margin-top: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    background-color: #007bff;  /* solid blue */
+    padding: 14px 28px;
+    border-radius: 6px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 .register-box a {
@@ -125,6 +125,10 @@ footer {
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
+}
+
+.register-box:hover {
+    background-color: #0056b3;  /* darker blue on hover */
 }
 
 .register-box:hover {
