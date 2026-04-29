@@ -135,3 +135,23 @@ footer {
     transform: scale(1.05);
     transition: 0.3s;
 }
+.register-box {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;          /* centers it */
+    background-color: #007bff;  /* solid blue */
+    padding: 14px 30px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.register-box a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.register-box:hover {
+    background-color: #0056b3;  /* darker on hover */
+}
