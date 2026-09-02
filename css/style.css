@@ -181,3 +181,15 @@ ul li {
     align-items: center;
     font-weight: bold;
 }
+.mnnit-logo {
+    height: 22px !important;
+    width: auto !important;
+    max-height: 22px !important;
+    margin-right: 6px !important;
+}
+
+.navbar-brand {
+    display: flex !important;
+    align-items: center !important;
+    height: 40px !important;
+}
