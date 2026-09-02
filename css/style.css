@@ -165,3 +165,7 @@ ul li {
     color: white !important;
     font-weight: bold;
 }
+
+.navbar .nav-link:hover {
+    color: #ffd700 !important;
+}
