@@ -1,1036 +1,163 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>HABIT-2026 | International Conference on Health and Agricultural Biotechnology</title>
-
-<meta name="description" content="HABIT-2026 - 2nd International Conference on Health and Agricultural Biotechnology: Interdisciplinary Trends, October 30 - November 01, 2026, MNNIT Allahabad.">
-
-<!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-
-<!-- Bootstrap Icons -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-<!-- Main CSS -->
-<link rel="stylesheet" href="css/style.css">
-
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G6L3665NEL"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-G6L3665NEL');
-</script>
-
-</head>
-
-<body>
-
-<!-- =========================================================
-     NAVIGATION
-========================================================= -->
-
-<header class="site-header">
-
-<nav class="navbar navbar-custom">
-
-<div class="nav-container">
-
-<a href="#home" class="brand">
-    <span class="brand-main">HABIT</span>
-    <span class="brand-year">2026</span>
-</a>
-
-<button class="mobile-menu-btn" id="mobileMenuBtn">
-    <i class="bi bi-list"></i>
-</button>
-
-<div class="nav-menu" id="navMenu">
-
-<a href="#home">Home</a>
-<a href="#about">About</a>
-<a href="#themes">Themes</a>
-<a href="#dates">Important Dates</a>
-<a href="#papers">Call for Papers</a>
-<a href="#speakers">Speakers</a>
-<a href="#registration">Registration</a>
-<a href="#committee">Committee</a>
-<a href="#venue">Venue</a>
-<a href="#contact">Contact</a>
-
-<a href="brochure_HABIT2026.pdf" target="_blank" class="nav-brochure">
-    Brochure <i class="bi bi-arrow-up-right"></i>
-</a>
-
-</div>
-
-</div>
-
-</nav>
-
-</header>
-
-
-<!-- =========================================================
-     HERO
-========================================================= -->
-
-<section id="home" class="hero-section">
-
-<div class="hero-overlay"></div>
-
-<div class="hero-content">
-
-<div class="conference-label">
-    2<sup>nd</sup> INTERNATIONAL CONFERENCE
-</div>
-
-<h1>
-    Health and Agricultural
-    <span>Biotechnology</span>
-</h1>
-
-<div class="hero-subtitle">
-    Interdisciplinary Trends
-</div>
-
-<div class="hero-tag">
-    HABIT-2026
-</div>
-
-<div class="hero-info">
-
-<div>
-    <i class="bi bi-calendar3"></i>
-    <span>October 30 – November 01, 2026</span>
-</div>
-
-<div>
-    <i class="bi bi-geo-alt"></i>
-    <span>MNNIT Allahabad, Prayagraj, Uttar Pradesh, India</span>
-</div>
-
-</div>
-
-<div class="hero-buttons">
-
-<a href="#registration" class="btn-primary-custom">
-    Register Now
-    <i class="bi bi-arrow-right"></i>
-</a>
-
-<a href="#papers" class="btn-outline-custom">
-    Submit Abstract
-</a>
-
-</div>
-
-</div>
-
-<div class="scroll-indicator">
-    <span>Scroll to explore</span>
-    <i class="bi bi-chevron-down"></i>
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     QUICK INFORMATION
-========================================================= -->
-
-<section class="quick-info">
-
-<div class="quick-container">
-
-<div class="quick-item">
-    <div class="quick-icon">
-        <i class="bi bi-calendar-event"></i>
-    </div>
-    <div>
-        <small>DATE</small>
-        <strong>30 Oct – 01 Nov 2026</strong>
-    </div>
-</div>
-
-<div class="quick-item">
-    <div class="quick-icon">
-        <i class="bi bi-geo-alt"></i>
-    </div>
-    <div>
-        <small>VENUE</small>
-        <strong>MNNIT Allahabad</strong>
-    </div>
-</div>
-
-<div class="quick-item">
-    <div class="quick-icon">
-        <i class="bi bi-globe2"></i>
-    </div>
-    <div>
-        <small>MODE</small>
-        <strong>International Conference</strong>
-    </div>
-</div>
-
-<div class="quick-item">
-    <div class="quick-icon">
-        <i class="bi bi-award"></i>
-    </div>
-    <div>
-        <small>HIGHLIGHTS</small>
-        <strong>Talks • Posters • Awards</strong>
-    </div>
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     ABOUT
-========================================================= -->
-
-<section id="about" class="section about-section">
-
-<div class="section-container">
-
-<div class="section-heading">
-    <span>ABOUT THE CONFERENCE</span>
-    <h2>Connecting Ideas.<br><em>Creating Impact.</em></h2>
-</div>
-
-<div class="about-grid">
-
-<div class="about-image">
-    <img src="MNNIT.jpg" alt="MNNIT Allahabad">
-    <div class="image-caption">
-        <strong>MNNIT Allahabad</strong>
-        <span>Prayagraj, Uttar Pradesh, India</span>
-    </div>
-</div>
-
-<div class="about-content">
-
-<p class="lead">
-The <strong>2nd International Conference on Health and Agricultural Biotechnology: Interdisciplinary Trends (HABIT-2026)</strong> will bring together researchers, academicians, scientists, students, industry professionals and innovators to discuss emerging developments at the interface of biotechnology, health, agriculture and allied disciplines.
-</p>
-
-<p>
-The conference aims to provide a multidisciplinary platform for exchange of ideas, presentation of innovative research and development of meaningful collaborations. HABIT-2026 will particularly emphasize the integration of modern biotechnology with computational approaches, artificial intelligence, genomics, environmental science and translational research.
-</p>
-
-<p>
-The conference will feature expert lectures, keynote addresses, oral and poster presentations, scientific discussions and opportunities for networking among participants from academia, research institutions and industry.
-</p>
-
-<div class="about-highlights">
-
-<div>
-    <i class="bi bi-lightbulb"></i>
-    <strong>Innovation</strong>
-    <span>Emerging technologies and ideas</span>
-</div>
-
-<div>
-    <i class="bi bi-people"></i>
-    <strong>Collaboration</strong>
-    <span>Academia, research and industry</span>
-</div>
-
-<div>
-    <i class="bi bi-diagram-3"></i>
-    <strong>Interdisciplinary</strong>
-    <span>Connecting diverse disciplines</span>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     THEMES
-========================================================= -->
-
-<section id="themes" class="section themes-section">
-
-<div class="section-container">
-
-<div class="section-heading centered">
-    <span>CONFERENCE THEMES</span>
-    <h2>Explore the <em>Scientific Tracks</em></h2>
-    <p>
-        Research papers and abstracts are invited in the following areas,
-        including but not limited to:
-    </p>
-</div>
-
-<div class="theme-grid">
-
-<div class="theme-card">
-    <span>01</span>
-    <i class="bi bi-heart-pulse"></i>
-    <h3>Health Biotechnology</h3>
-    <p>Biomedical research, therapeutics, diagnostics and translational biotechnology.</p>
-</div>
-
-<div class="theme-card">
-    <span>02</span>
-    <i class="bi bi-flower1"></i>
-    <h3>Agricultural Biotechnology</h3>
-    <p>Crop improvement, plant biotechnology, agricultural genomics and sustainable agriculture.</p>
-</div>
-
-<div class="theme-card">
-    <span>03</span>
-    <i class="bi bi-cpu"></i>
-    <h3>Bioinformatics & Computational Biology</h3>
-    <p>Computational genomics, structural biology, drug discovery and biological data science.</p>
-</div>
-
-<div class="theme-card">
-    <span>04</span>
-    <i class="bi bi-robot"></i>
-    <h3>AI & Machine Learning</h3>
-    <p>Artificial intelligence applications in healthcare, agriculture and biotechnology.</p>
-</div>
-
-<div class="theme-card">
-    <span>05</span>
-    <i class="bi bi-tree"></i>
-    <h3>Environmental Biotechnology</h3>
-    <p>Bioremediation, climate change, environmental omics and sustainable technologies.</p>
-</div>
-
-<div class="theme-card">
-    <span>06</span>
-    <i class="bi bi-dna"></i>
-    <h3>Genomics & Proteomics</h3>
-    <p>Genomics, transcriptomics, proteomics, metabolomics and systems biology.</p>
-</div>
-
-<div class="theme-card">
-    <span>07</span>
-    <i class="bi bi-beaker"></i>
-    <h3>Nanobiotechnology & Green Chemistry</h3>
-    <p>Nanomaterials, nano-biotechnology and environmentally sustainable chemistry.</p>
-</div>
-
-<div class="theme-card">
-    <span>08</span>
-    <i class="bi bi-capsule"></i>
-    <h3>Food, Diet & Nutrition</h3>
-    <p>Food biotechnology, nutrition, nutraceuticals and functional foods.</p>
-</div>
-
-<div class="theme-card">
-    <span>09</span>
-    <i class="bi bi-buildings"></i>
-    <h3>Industrial Biotechnology</h3>
-    <p>Bioprocessing, fermentation, enzymes, biomaterials and biomanufacturing.</p>
-</div>
-
-<div class="theme-card">
-    <span>10</span>
-    <i class="bi bi-activity"></i>
-    <h3>Biomedical Engineering</h3>
-    <p>Bioelectronics, biomechanics, biomedical devices and engineering applications.</p>
-</div>
-
-<div class="theme-card">
-    <span>11</span>
-    <i class="bi bi-shield-check"></i>
-    <h3>IPR, Policy & Ethics</h3>
-    <p>Intellectual property, biotechnology policy, regulation and ethical issues.</p>
-</div>
-
-<div class="theme-card">
-    <span>12</span>
-    <i class="bi bi-infinity"></i>
-    <h3>Interdisciplinary Biotechnology</h3>
-    <p>Innovative research integrating biotechnology with other scientific disciplines.</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     IMPORTANT DATES
-========================================================= -->
-
-<section id="dates" class="section dates-section">
-
-<div class="section-container">
-
-<div class="section-heading centered">
-    <span>PLAN AHEAD</span>
-    <h2>Important <em>Dates</em></h2>
-</div>
-
-<div class="dates-grid">
-
-<div class="date-card">
-    <div class="date-number">01</div>
-    <i class="bi bi-file-earmark-text"></i>
-    <small>ABSTRACT SUBMISSION</small>
-    <strong>August 30, 2026</strong>
-</div>
-
-<div class="date-card">
-    <div class="date-number">02</div>
-    <i class="bi bi-check-circle"></i>
-    <small>ABSTRACT ACCEPTANCE</small>
-    <strong>September 10, 2026</strong>
-</div>
-
-<div class="date-card">
-    <div class="date-number">03</div>
-    <i class="bi bi-person-check"></i>
-    <small>EARLY REGISTRATION</small>
-    <strong>September 15, 2026</strong>
-</div>
-
-<div class="date-card highlight">
-    <div class="date-number">04</div>
-    <i class="bi bi-calendar-event"></i>
-    <small>CONFERENCE</small>
-    <strong>October 30 – November 01, 2026</strong>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     CALL FOR PAPERS
-========================================================= -->
-
-<section id="papers" class="section papers-section">
-
-<div class="section-container">
-
-<div class="papers-grid">
-
-<div class="papers-content">
-
-<div class="section-heading">
-    <span>CALL FOR PAPERS</span>
-    <h2>Share Your<br><em>Research With Us</em></h2>
-</div>
-
-<p>
-Researchers, academicians, scientists, research scholars and students are invited to submit abstracts of original research related to the conference themes.
-</p>
-
-<ul class="check-list">
-    <li><i class="bi bi-check2"></i> Original research and innovative studies</li>
-    <li><i class="bi bi-check2"></i> Interdisciplinary research is encouraged</li>
-    <li><i class="bi bi-check2"></i> Oral and poster presentations</li>
-    <li><i class="bi bi-check2"></i> Research from academia and industry</li>
-</ul>
-
-<a href="https://forms.gle/k6S19ZRK3JgbDZzz9" target="_blank" class="btn-primary-custom">
-    Submit Your Abstract
-    <i class="bi bi-arrow-up-right"></i>
-</a>
-
-</div>
-
-<div class="submission-box">
-
-<div class="submission-icon">
-    <i class="bi bi-send"></i>
-</div>
-
-<h3>Abstract Submission</h3>
-
-<p>
-Submit your abstract online using the official submission form.
-</p>
-
-<div class="deadline-box">
-    <span>Submission Deadline</span>
-    <strong>August 30, 2026</strong>
-</div>
-
-<a href="https://forms.gle/k6S19ZRK3JgbDZzz9" target="_blank" class="submission-link">
-    Open Submission Form
-    <i class="bi bi-arrow-right"></i>
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     SPEAKERS
-========================================================= -->
-
-<section id="speakers" class="section speakers-section">
-
-<div class="section-container">
-
-<div class="section-heading centered">
-    <span>SCIENTIFIC PROGRAMME</span>
-    <h2>Keynote & <em>Invited Speakers</em></h2>
-    <p>
-        Eminent scientists, academicians and experts will share their perspectives
-        on emerging trends in biotechnology.
-    </p>
-</div>
-
-<div class="speaker-grid">
-
-<div class="speaker-placeholder">
-    <div class="speaker-icon">
-        <i class="bi bi-person"></i>
-    </div>
-    <h3>Keynote Speakers</h3>
-    <p>Details will be announced shortly.</p>
-</div>
-
-<div class="speaker-placeholder">
-    <div class="speaker-icon">
-        <i class="bi bi-mic"></i>
-    </div>
-    <h3>Invited Speakers</h3>
-    <p>Details will be announced shortly.</p>
-</div>
-
-<div class="speaker-placeholder">
-    <div class="speaker-icon">
-        <i class="bi bi-award"></i>
-    </div>
-    <h3>Young Scientists</h3>
-    <p>Young Scientist Awards and presentations.</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     REGISTRATION
-========================================================= -->
-
-<section id="registration" class="section registration-section">
-
-<div class="section-container">
-
-<div class="section-heading centered">
-    <span>REGISTRATION</span>
-    <h2>Join <em>HABIT-2026</em></h2>
-    <p>
-        Register for the conference and become part of this international
-        scientific gathering.
-    </p>
-</div>
-
-
-<div class="fee-table-wrapper">
-
-<h3>Registration Fees – From India</h3>
-
-<div class="table-scroll">
-
-<table class="fee-table">
-
-<thead>
-<tr>
-    <th>Category</th>
-    <th>Early Bird</th>
-    <th>Late Bird</th>
-    <th>On Spot</th>
-</tr>
-</thead>
-
-<tbody>
-
-<tr>
-    <td>Students (UG/PG)</td>
-    <td>₹3,540</td>
-    <td>₹4,130</td>
-    <td>₹4,720</td>
-</tr>
-
-<tr>
-    <td>PhD / Postdoctoral Fellow / Research Scholar</td>
-    <td>₹4,130</td>
-    <td>₹4,720</td>
-    <td>₹5,310</td>
-</tr>
-
-<tr>
-    <td>Academia</td>
-    <td>₹5,900</td>
-    <td>₹7,080</td>
-    <td>₹8,260</td>
-</tr>
-
-<tr>
-    <td>Industries</td>
-    <td>₹7,080</td>
-    <td>₹8,260</td>
-    <td>₹9,440</td>
-</tr>
-
-<tr>
-    <td>Accompanying Person</td>
-    <td>₹3,540</td>
-    <td>₹4,130</td>
-    <td>₹4,720</td>
-</tr>
-
-</tbody>
-
-</table>
-
-</div>
-
-
-<h3 class="foreign-title">Registration Fees – Foreign Delegates</h3>
-
-<div class="table-scroll">
-
-<table class="fee-table">
-
-<thead>
-<tr>
-    <th>Category</th>
-    <th>Early Bird</th>
-    <th>Late Bird</th>
-    <th>On Spot</th>
-</tr>
-</thead>
-
-<tbody>
-
-<tr>
-    <td>Students (UG/PG)</td>
-    <td>$200</td>
-    <td>$250</td>
-    <td>$300</td>
-</tr>
-
-<tr>
-    <td>PhD / Postdoctoral Fellow / Research Scholar</td>
-    <td>$250</td>
-    <td>$300</td>
-    <td>$350</td>
-</tr>
-
-<tr>
-    <td>Academia</td>
-    <td>$300</td>
-    <td>$350</td>
-    <td>$500</td>
-</tr>
-
-<tr>
-    <td>Industries</td>
-    <td>$400</td>
-    <td>$400</td>
-    <td>$600</td>
-</tr>
-
-<tr>
-    <td>Accompanying Person</td>
-    <td>$200</td>
-    <td>$250</td>
-    <td>$300</td>
-</tr>
-
-</tbody>
-
-</table>
-
-</div>
-
-</div>
-
-
-<!-- Registration process -->
-
-<div class="registration-process">
-
-<div class="process-step">
-    <span>01</span>
-    <i class="bi bi-credit-card"></i>
-    <h3>Make Payment</h3>
-    <p>Complete the conference payment through the prescribed method.</p>
-</div>
-
-<div class="process-line"></div>
-
-<div class="process-step">
-    <span>02</span>
-    <i class="bi bi-qr-code"></i>
-    <h3>Scan QR Code</h3>
-    <p>Use the QR code provided for payment.</p>
-</div>
-
-<div class="process-line"></div>
-
-<div class="process-step">
-    <span>03</span>
-    <i class="bi bi-person-check"></i>
-    <h3>Register Online</h3>
-    <p>Complete the official registration form after payment.</p>
-</div>
-
-</div>
-
-
-<div class="registration-action">
-
-<div class="qr-section">
-
-<h3>Registration & Payment</h3>
-
-<p>Scan the QR code to make payment.</p>
-
-<img src="SNFCE QR Code.png" alt="HABIT-2026 Payment QR Code">
-
-</div>
-
-<div class="register-action-content">
-
-<span>READY TO JOIN?</span>
-
-<h2>Complete Your<br><em>Registration</em></h2>
-
-<p>
-After completing the payment, submit your registration details using
-the official registration form.
-</p>
-
-<a href="https://forms.gle/CFTZGeXaDW5XVcAD7"
-   target="_blank"
-   class="btn-primary-custom">
-    After Payment → Register Here
-    <i class="bi bi-arrow-up-right"></i>
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     COMMITTEE
-========================================================= -->
-
-<section id="committee" class="section committee-section">
-
-<div class="section-container">
-
-<div class="section-heading centered">
-    <span>ORGANIZING TEAM</span>
-    <h2>Conference <em>Committee</em></h2>
-</div>
-
-<div class="committee-grid">
-
-<div class="committee-card large">
-    <span>CHIEF PATRON</span>
-    <h3>To be announced</h3>
-    <p>MNNIT Allahabad</p>
-</div>
-
-<div class="committee-card">
-    <span>PATRON</span>
-    <h3>To be announced</h3>
-    <p>MNNIT Allahabad</p>
-</div>
-
-<div class="committee-card">
-    <span>CONFERENCE CHAIR</span>
-    <h3>To be announced</h3>
-    <p>Department of Biotechnology</p>
-</div>
-
-<div class="committee-card">
-    <span>ORGANIZING SECRETARY</span>
-    <h3>To be announced</h3>
-    <p>Department of Biotechnology</p>
-</div>
-
-<div class="committee-card">
-    <span>CONVENERS</span>
-    <h3>To be announced</h3>
-    <p>HABIT-2026</p>
-</div>
-
-<div class="committee-card">
-    <span>SCIENTIFIC COMMITTEE</span>
-    <h3>To be announced</h3>
-    <p>HABIT-2026</p>
-</div>
-
-</div>
-
-<p class="committee-note">
-    Names and details of the organizing and scientific committees will be updated as the conference programme is finalized.
-</p>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     VENUE
-========================================================= -->
-
-<section id="venue" class="section venue-section">
-
-<div class="section-container">
-
-<div class="venue-grid">
-
-<div class="venue-content">
-
-<div class="section-heading">
-    <span>THE VENUE</span>
-    <h2>Motilal Nehru National<br><em>Institute of Technology Allahabad</em></h2>
-</div>
-
-<p>
-HABIT-2026 will be hosted by the <strong>Department of Biotechnology, Motilal Nehru National Institute of Technology Allahabad</strong>, Prayagraj, Uttar Pradesh, India.
-</p>
-
-<div class="venue-details">
-
-<div>
-    <i class="bi bi-geo-alt"></i>
-    <span>
-        <strong>Address</strong>
-        MNNIT Allahabad, Prayagraj-211004,<br>
-        Uttar Pradesh, India
-    </span>
-</div>
-
-<div>
-    <i class="bi bi-building"></i>
-    <span>
-        <strong>Department</strong>
-        Department of Biotechnology
-    </span>
-</div>
-
-</div>
-
-</div>
-
-<div class="venue-image">
-
-<img src="MNNIT.jpg" alt="MNNIT Allahabad">
-
-<div class="venue-label">
-    <i class="bi bi-geo-alt-fill"></i>
-    MNNIT Allahabad
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     CONTACT
-========================================================= -->
-
-<section id="contact" class="section contact-section">
-
-<div class="section-container">
-
-<div class="section-heading centered light">
-    <span>GET IN TOUCH</span>
-    <h2>Contact <em>HABIT-2026</em></h2>
-    <p>
-        For conference-related enquiries, registration and abstract submission,
-        please contact the organizing team.
-    </p>
-</div>
-
-<div class="contact-grid">
-
-<div class="contact-card">
-
-<i class="bi bi-building"></i>
-
-<span>ORGANIZED BY</span>
-
-<h3>Department of Biotechnology</h3>
-
-<p>
-Motilal Nehru National Institute of Technology Allahabad
-</p>
-
-</div>
-
-
-<div class="contact-card">
-
-<i class="bi bi-geo-alt"></i>
-
-<span>ADDRESS</span>
-
-<h3>MNNIT Allahabad</h3>
-
-<p>
-Prayagraj-211004, Uttar Pradesh, India
-</p>
-
-</div>
-
-
-<div class="contact-card">
-
-<i class="bi bi-envelope"></i>
-
-<span>EMAIL</span>
-
-<h3>Conference Secretariat</h3>
-
-<p>
-Please use the official conference contact details.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =========================================================
-     FOOTER
-========================================================= -->
-
-<footer class="site-footer">
-
-<div class="footer-container">
-
-<div class="footer-brand">
-
-<div class="brand">
-    <span class="brand-main">HABIT</span>
-    <span class="brand-year">2026</span>
-</div>
-
-<p>
-2nd International Conference on Health and Agricultural Biotechnology:
-Interdisciplinary Trends
-</p>
-
-</div>
-
-
-<div class="footer-links">
-
-<h4>QUICK LINKS</h4>
-
-<a href="#about">About</a>
-<a href="#themes">Themes</a>
-<a href="#dates">Important Dates</a>
-<a href="#papers">Call for Papers</a>
-<a href="#registration">Registration</a>
-
-</div>
-
-
-<div class="footer-links">
-
-<h4>CONFERENCE</h4>
-
-<a href="#speakers">Speakers</a>
-<a href="#committee">Committee</a>
-<a href="#venue">Venue</a>
-<a href="brochure_HABIT2026.pdf" target="_blank">Information Brochure</a>
-
-</div>
-
-</div>
-
-
-<div class="footer-bottom">
-
-<span>
-© 2026 HABIT-2026 | MNNIT Allahabad
-</span>
-
-<span>
-Health & Agricultural Biotechnology
-</span>
-
-</div>
-
-</footer>
-
-
-<!-- =========================================================
-     MOBILE MENU SCRIPT
-========================================================= -->
-
-<script>
-
-const mobileMenuBtn = document.getElementById("mobileMenuBtn");
-const navMenu = document.getElementById("navMenu");
-
-mobileMenuBtn.addEventListener("click", function() {
-    navMenu.classList.toggle("active");
-});
-
-document.querySelectorAll(".nav-menu a").forEach(function(link) {
-
-    link.addEventListener("click", function() {
-        navMenu.classList.remove("active");
-    });
-
-});
-
-</script>
-
-
-</body>
-</html>
+/* ================= GENERAL ================= */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* ================= HERO (BACKGROUND IMAGE) ================= */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                url('https://raw.githubusercontent.com/ashutomani/habit2026/main/MNNIT.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+}
+
+/* ================= TEXT IMPROVEMENT ================= */
+.hero h1, .hero h2, .hero h3, .hero h4, .hero p {
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+/* ================= SECTION TITLES ================= */
+.section-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ================= CARDS ================= */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ================= BUTTONS ================= */
+.btn {
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-weight: 500;
+}
+
+/* ================= LIST ================= */
+ul {
+    font-size: 16px;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+/* ================= MOBILE RESPONSIVE ================= */
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 20px;
+        background-attachment: scroll; /* fix for mobile */
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+    .title-box {
+    display: inline-block;
+    background-color: rgba(0, 102, 204, 0.85); /* blue */
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.title-box h2,
+.title-box h4 {
+    color: white;
+    margin: 0;
+}
+
+    .hero h2 {
+        font-size: 20px;
+    }
+}
+.title-box {
+    display: inline-block;
+    background-color: blue;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+.brochure-link {
+    background-color: #fff3b0; /* fluorescent cream */
+    color: black !important;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.brochure-link:hover {
+    background-color: #ffe066;
+    color: black !important;
+}
+.register-box {
+    display: inline-block;
+    background-color: #007bff;  /* solid blue */
+    padding: 14px 28px;
+    border-radius: 6px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.register-box a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.register-box:hover {
+    background-color: #0056b3;  /* darker blue on hover */
+}
+
+.register-box:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.register-box {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;          /* centers it */
+    background-color: #007bff;  /* solid blue */
+    padding: 14px 30px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.register-box a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.register-box:hover {
+    background-color: #0056b3;  /* darker on hover */
+}
+ul li {
+    margin-bottom: 8px;
+}
+.visitor-map {
+    margin-top: 40px;
+}
