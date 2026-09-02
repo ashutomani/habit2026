@@ -12,11 +12,11 @@ body {
 
 /* ================= HERO (BACKGROUND IMAGE) ================= */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-                url('https://raw.githubusercontent.com/ashutomani/habit2026/main/MNNIT.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                      url("https://raw.githubusercontent.com/ashutomani/habit2026/main/MNNIT.jpg") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
     color: white;
     padding: 120px 20px;
     text-align: center;
