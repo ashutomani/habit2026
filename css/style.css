@@ -161,4 +161,7 @@ ul li {
 .visitor-map {
     margin-top: 40px;
 }
-
+.navbar .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
