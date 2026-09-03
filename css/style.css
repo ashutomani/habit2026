@@ -12,29 +12,15 @@ body {
 
 /* ================= HERO (BACKGROUND IMAGE) ================= */
 .hero {
-    position: relative;
-    min-height: 650px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
-        url("../MNNIT.jpeg");
-
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                url('https://raw.githubusercontent.com/ashutomani/habit2026/main/MNNIT.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
 }
-
-@media (max-width: 768px) {
-    .hero {
-        min-height: 700px;
-        background-position: center center;
-    }
-}
-Important
 
 /* ================= TEXT IMPROVEMENT ================= */
 .hero h1, .hero h2, .hero h3, .hero h4, .hero p {
@@ -174,17 +160,4 @@ ul li {
 }
 .visitor-map {
     margin-top: 40px;
-}
-.navbar .nav-link {
-    color: white !important;
-    font-weight: bold;
-}
-
-.navbar .nav-link:hover {
-    color: #ffd700 !important;
-}
-.mnnit-logo {
-    height: 22px;
-    width: auto;
-    margin-right: 6px;
 }
