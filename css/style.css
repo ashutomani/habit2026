@@ -161,3 +161,15 @@ ul li {
 .visitor-map {
     margin-top: 40px;
 }
+/* HABIT-2026 Navigation */
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.navbar-brand {
+    font-size: 22px !important;
+    font-weight: 700;
+}
