@@ -12,15 +12,29 @@ body {
 
 /* ================= HERO (BACKGROUND IMAGE) ================= */
 .hero {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-                      url("https://raw.githubusercontent.com/ashutomani/habit2026/main/MNNIT.jpg") !important;
-    background-size: cover !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-    color: white;
-    padding: 120px 20px;
-    text-align: center;
+    position: relative;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
+        url("../MNNIT.jpg");
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 700px;
+        background-position: center center;
+    }
+}
+Important
 
 /* ================= TEXT IMPROVEMENT ================= */
 .hero h1, .hero h2, .hero h3, .hero h4, .hero p {
